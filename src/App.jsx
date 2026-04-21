@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar"
+import FlavorSection from "./sections/FlavorSection"
 import HeroSection from "./sections/HeroSection"
 import MessageSection from "./sections/MassageSection"
 
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
         <HeroSection />
         <MessageSection />
+        <FlavorSection />
         <div className="h-100"></div>
       </main>
     </>
